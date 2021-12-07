@@ -1,0 +1,23 @@
+.button-style {
+width: 80px;
+height: 30px;
+font-family: 'Monsterrat', 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+border: 0.25px solid #007bf9;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+transition: all 0.3s ease-out;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+display: flex;
+align-items: center;
+padding: 10px 20px;
+font-weight: 700;
+max-height: 42px;
+flex-direction: row;
+width: fit-content;
+}
+
+.button-style:active {
+    box-shadow: 0 2px rgb(59, 59, 59);
+    transform: translateY(4px);
+  }
